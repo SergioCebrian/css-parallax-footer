@@ -56,12 +56,12 @@ p {
     min-height: 100vh;
 }
 
-.o-section--dark {
-    background-color: rgba(26, 188, 156, 1.0);
+.o-section--blue {
+    background-color: rgba(26, 188, 156, .5);
 }
 
-.o-section--light {
-    background-color: rgba(231, 76, 60, 1.0);
+.o-section--orange {
+    background-color: rgba(230, 126, 34, .5);
 }
 
 .o-footer {
