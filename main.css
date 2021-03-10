@@ -1,0 +1,89 @@
+/*=========================================================================*\
+  Tags
+/*=========================================================================*/
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h2,
+span {
+    display: block;
+    font-size: 4rem;
+}
+
+h2,
+span,
+p {
+    color: white;
+}
+
+span {
+    transform: rotate(-90deg);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*=========================================================================*\
+  Layout
+/*=========================================================================*/
+
+.o-wrap,
+.o-main,
+.o-footer {
+    width: 100%;
+}
+
+.o-main {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+}
+
+.o-section {
+    min-height: 100vh;
+}
+
+.o-section--dark {
+    background-color: rgba(26, 188, 156, 1.0);
+}
+
+.o-section--light {
+    background-color: rgba(231, 76, 60, 1.0);
+}
+
+.o-footer {
+    background-color: rgba(44, 62, 80, 1.0);
+    height: 152px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+/*=========================================================================*\
+  Utilities
+/*=========================================================================*/
+
+.u-placeholder {
+    height: 152px;
+    z-index: 1;
+}
+
+.u-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
